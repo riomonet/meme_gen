@@ -1,0 +1,66 @@
+
+
+
+
+input[type=text] {
+
+    width: 40%;
+    height: 50px;
+}
+
+
+.meme {
+    position: relative;
+    /* border: 3px solid black; */
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.delete{
+    postion: absolute;
+    border: 1px solid lightgray;
+    display: inline;
+    cursor: pointer;
+    font-family: monospace;
+    color: lightgray;
+    top: 5px;
+    
+}
+
+.header {
+
+    position: absolute;
+    font-size:  4em;
+    text-align: center;
+    font-family: impact;
+    color: black
+    top: 5px;
+    left: 10%;
+    right: 10%;
+    
+    
+}
+
+
+.footer {
+
+    position: absolute;
+    font-size:  2em;
+    text-align: center;
+    font-family: impact;
+    color: black;
+    left: 10%;
+    right: 10%;
+    bottom: -5%;
+    
+}
